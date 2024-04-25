@@ -23,7 +23,7 @@ namespace AlbotServer {
             server.SetHandler((short)CustomMasterServerMSG.requestLoginData, handleRequestUserLoginData);
             server.SetHandler((short)CustomMasterServerMSG.requestGamesData, handleGamesPlayedData);
 
-            Debug.LogError("UserData Inited");
+            Debug.Log("UserData Inited");
         }
 
 

@@ -16,7 +16,7 @@ public class SpectatorAuthModule : ServerModuleBehaviour {
 		singleton = this;
 		server.SetHandler ((short)CustomMasterServerMSG.adminLogin, handleLogin);
 		server.SetHandler ((short)CustomMasterServerMSG.adminLogout, handleLogout);
-		Debug.LogError ("Spectator Auth Init");
+		Debug.Log ("Spectator Auth Init");
 	}
 
 

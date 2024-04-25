@@ -25,7 +25,7 @@ namespace Barebones.MasterServer{
 			server.SetHandler ((short)CustomMasterServerMSG.spectateLogUpdate, handleGamelogUpdate);
 			server.SetHandler ((short)CustomMasterServerMSG.requestSpectatorGames, handleRequestSpectatorGames);
             server.SetHandler((short)CustomMasterServerMSG.requestSpecificGameLog, handleRequestSpecificUpdates);
-            Debug.LogError ("Spectator init");
+            Debug.Log ("Spectator init");
 		}
 
         public void initPreGames(Dictionary<string, PreGame> activeGames, Dictionary<string, PreGame> allGames, List<PreGame> allGamesList) {

@@ -18,7 +18,7 @@ public class AlbotAuthModule : ServerModuleBehaviour {
     public static Dictionary<string, IPeer> tempActiveUsers = new Dictionary<string, IPeer>();
 
 	public override void Initialize (IServer server){
-		Debug.LogError ("Init costum AuthModule");
+		Debug.Log ("Init costum AuthModule");
 
 		AlbotDBManager.initDB ();
 		AlbotDBManager.updateLoginInfo (new UserLoginInformation{ username = "Zully", password = "apa", isLoggedIn = false});

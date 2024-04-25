@@ -20,7 +20,7 @@ public class AlbotServerChat : ServerModuleBehaviour {
 
 	public override void Initialize (IServer server){
 		base.Initialize (server);
-		Debug.LogError ("Server Chat init");
+		Debug.Log ("Server Chat init");
 		server.SetHandler ((short)ServerCommProtocl.LobbyChatMsg, handleIncomingMsg);
 		server.SetHandler ((short)ServerCommProtocl.LobbyPlayerEnter, handleOnJoinedChat);
 		server.SetHandler ((short)ServerCommProtocl.LobbyPlayerLeft, handleOnLeftChat);

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using UnityEngine.Networking;
+//using UnityEngine.Networking;
 using Game;
 
 namespace Snake{

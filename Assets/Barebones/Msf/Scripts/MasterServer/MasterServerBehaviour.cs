@@ -103,7 +103,7 @@ namespace Barebones.MasterServer
             if (IsRunning)
                 return;
 
-			Debug.LogError("Starting on port: " + port + "...");
+			Debug.Log("Starting on port: " + port + "...");
 
             base.StartServer(port);
 
